@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>512e3f58-6051-4e2f-90c0-d09a63ecf69c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Frigate.Commons\Frigate.Commons.csproj" />
+    <ProjectReference Include="..\Frigate.Core\Frigate.Core.csproj" />
+    <ProjectReference Include="..\Frigate.Database.MariaDb\Frigate.Database.MariaDb.csproj" />
+    <ProjectReference Include="..\Frigate.Infrastructure\Frigate.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
