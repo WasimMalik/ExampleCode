@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.RestApi\\Frigate.RestApi.csproj": {}
+  },
+  "projects": {
+    "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj",
+        "projectName": "Frigate.Commons",
+        "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj",
+        "projectName": "Frigate.Core",
+        "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Database.MariaDb\\Frigate.Database.MariaDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Database.MariaDb\\Frigate.Database.MariaDb.csproj",
+        "projectName": "Frigate.Database.MariaDb",
+        "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Database.MariaDb\\Frigate.Database.MariaDb.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Database.MariaDb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj"
+              },
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj"
+              },
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj",
+        "projectName": "Frigate.Infrastructure",
+        "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj"
+              },
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "Z.EntityFramework.Plus.EFCore": {
+              "target": "Package",
+              "version": "[1.8.25, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.RestApi\\Frigate.RestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.RestApi\\Frigate.RestApi.csproj",
+        "projectName": "Frigate.RestApi",
+        "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.RestApi\\Frigate.RestApi.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.RestApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Commons\\Frigate.Commons.csproj"
+              },
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Core\\Frigate.Core.csproj"
+              },
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Database.MariaDb\\Frigate.Database.MariaDb.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Database.MariaDb\\Frigate.Database.MariaDb.csproj"
+              },
+              "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj": {
+                "projectPath": "E:\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\FrigateRestAPI\\Frigate\\Frigate.Infrastructure\\Frigate.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.4.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

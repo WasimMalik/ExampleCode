@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{85249750-B22F-443A-A59F-837376EF3988}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frigate.RestApi/Controllers/SemanticController.cs">
+    <Files>
+      <File FileName="Frigate.RestApi/Controllers/SemanticController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Frigate" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Frigate.Commons" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
+              <Node name="Frigate.RestApi" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="SemanticController.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.Frigate.RestApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

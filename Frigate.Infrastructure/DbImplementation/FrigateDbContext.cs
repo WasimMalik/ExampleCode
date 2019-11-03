@@ -21,7 +21,7 @@ namespace Frigate.Infrastructure.DbImplementation
 
         public DbSet<TestTable> TestTables { get; set; }
         public DbSet<SemanticView> SemanticViews { get; set; }
-
+        public DbSet<DataSourceDetails> datasourcedetail { get; set; }
         public DbSet<SemanticViewDetails> SemanticViewDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -38,6 +38,10 @@ namespace Frigate.Infrastructure.DbImplementation
             builder.Entity<SemanticViewDetails>(svd =>
             {
                 svd.HasKey(x => x.SemanticViewDetailsId);
+            });
+            builder.Entity<DataSourceDetails>(svd =>
+            {
+                svd.HasKey(x => x.Id);
             });
         }
     }
